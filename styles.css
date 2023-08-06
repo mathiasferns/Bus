@@ -1,0 +1,88 @@
+body {
+    margin: auto;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(152, 152, 152, 0.75),rgba(142, 142, 142, 0.75)),url(bus_image.png);
+    background-size: cover;
+}
+
+
+
+.container {
+    float: left;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   align-items: flex-start;  
+}
+
+.form-group {
+    display: block;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    display: block;
+    padding: 10px 20px;
+    background-color: #465f47;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a2b8a3;
+}
+
+.home-page {
+    display: none;
+}
+
+.home-page.active {
+    display: block;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options a {
+    display: block;
+    width: calc(25% - 10px);
+    margin-inline-end: 50px;
+    text-align: center;
+    background-color: #ededed;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 8px;
+}
+
+.options a:hover {
+    background-color: #727272;
+}
